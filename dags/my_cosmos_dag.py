@@ -19,4 +19,4 @@ dbt_postgres_dag = DbtDag(project_config=ProjectConfig("/usr/local/airflow/dags/
                     schedule_interval="@daily",
                     start_date=datetime(2024, 1, 1),
                     catchup=False,
-                    dag_id="dbt_postgres_dag_1",)
+                    dag_id="dbt_postgres_dag_2",)
