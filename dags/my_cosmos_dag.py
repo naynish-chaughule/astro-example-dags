@@ -17,6 +17,6 @@ dbt_postgres_dag = DbtDag(project_config=ProjectConfig("/usr/local/airflow/dags/
                     profile_config=profile_config,
                     execution_config=ExecutionConfig(dbt_executable_path=f"{os.environ['AIRFLOW_HOME']}/dbt_venv/bin/dbt",),
                     schedule_interval="@daily",
-                    start_date=datetime(2023, 9, 10),
+                    start_date=datetime(2024, 1, 1),
                     catchup=False,
                     dag_id="dbt_postgres_dag",)
